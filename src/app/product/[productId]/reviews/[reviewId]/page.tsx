@@ -6,8 +6,9 @@ const Reviews = ({
 }: {
   params: { productId: string; reviewId: string };
 }) => {
-  console.log({ params });
-
+  if (params.reviewId === "3") {
+    throw new Error("Error while fetching reviews details");
+  }
   return (
     <div>
       Product Details {params.productId} and Review {params.reviewId}
