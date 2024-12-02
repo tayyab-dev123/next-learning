@@ -1,3 +1,9 @@
+import Link from "next/link";
+
 export default function Page() {
-  return <div>Todo List</div>;
+  return (
+    <div>
+      Todo List | <Link href="/dashboard/donelist">Done</Link>
+    </div>
+  );
 }
