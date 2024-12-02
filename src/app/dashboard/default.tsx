@@ -1,7 +1,5 @@
-export default function DefaultTodoList() {
-  return (
-    <>
-      <h2>Dashboard</h2>
-    </>
-  );
-}
+const DefaultLoginPageSolt = () => {
+  return <div>Please login to go the route</div>;
+};
+
+export default DefaultLoginPageSolt;
